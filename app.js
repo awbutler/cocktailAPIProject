@@ -27,12 +27,12 @@ const loadCocktails = async () => {
 
 const displayCocktails = (cocktails) => {
   const htmlString = cocktails
-    .slice(10, 20)
+    // .slice(0, 10)
     .map((drinks) => {
       return `
-            <li class="cocktail">
+            <li class="cocktail" style="background-image: url('${drinks.strDrinkThumb}');">
+                <div class="shadow"></div>
                 <h2>${drinks.strDrink}</h2>
-                <img src="${drinks.strDrinkThumb}"></img>
             </li>
         `;
     })
