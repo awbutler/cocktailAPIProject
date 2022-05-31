@@ -1,0 +1,44 @@
+body {
+    align-content: center;
+    font-family: sans-serif;
+    background-color: #111d4a;
+    color:black;
+}
+
+body{
+    background-image: url('cocktail.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 40%;
+      background-position: right bottom;
+      
+      
+}
+
+/* div.background {
+    background: url(klematis.jpg) repeat;
+    border: 2px solid black;
+  } */
+  
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+
+
+
+* {
+    box-sizing: border-box;
+  }
+
+

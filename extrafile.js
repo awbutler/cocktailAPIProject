@@ -32,11 +32,11 @@ function displayIngredient(drinkData){
    drinkInfo.innerHTML =  drinkData.map( ({strDrink, strDrinkThumb}) => { //destructuring
     
     return` <div> 
-      <div class="card" style="width: 14.5rem;">
-      <div class="card-body">
+      <div class="card" style="width: 20rem;">
+      <div class="card-body mx-auto">
         <h5 class="card-title">${strDrink} </h5>
        
-        <img src="${strDrinkThumb}" height="200" width="200"/>
+        <img src="${strDrinkThumb}" height="175" width="175"/>
      
       </div></div>
       `;
@@ -44,3 +44,5 @@ function displayIngredient(drinkData){
         
     drinkInfo.appendChild(drinkInfo);
 }
+
+
